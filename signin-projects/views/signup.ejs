@@ -1,0 +1,20 @@
+<%- include("partials/header") -%>
+<div class="box">
+    <h1>SignUp Now</h1>
+    <form action="/signup" method="POST">
+        <label for="">Name : </label>
+        <input type="text" name="namee" placeholder="Enter You Name">
+        <label for="">Phone No : </label>
+        <input type="number" name="phone" placeholder="Enter You Phone Number">
+        <label for="">Email : </label>
+        <input type="email" name="email" placeholder="Enter You Email">
+        <label for="">Password : </label>
+        <input type="password" name="pass" placeholder="Enter You Password">
+        <label for="">Confurm Password : </label>
+        <input type="password" name="cpass" placeholder="Enter You Confurm Password">
+
+    <button type="submit" value="signup">SignUp</button>
+    </form>
+</div>
+
+<%- include("partials/footer") -%>
